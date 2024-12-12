@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+fsr44eQzvUJ9MoJS/X8BjeOgnAJsjVhnwaMwrE1twuFD2exTqm/TbYPc3WaA23WkShNBBhGP4rJ02F5/rSFIg==",
+  "dgSpecHash": "wEHRU1lAnoIZx/KZZPtpZzz+kW7WJenUj7JszT/4dct1ihl24foCSVcjsu7idgj9BvcylRRMjzVR8/wKA6SCXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
   "expectedPackageFiles": [
@@ -16,19 +16,7 @@
     "C:\\Users\\doozi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\doozi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\doozi\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\doozi\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\doozi\\.nuget\\packages\\system.windows.forms\\4.0.0\\system.windows.forms.4.0.0.nupkg.sha512"
+    "C:\\Users\\doozi\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Windows.Forms",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

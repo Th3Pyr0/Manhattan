@@ -1,0 +1,26 @@
+using System;
+using System.Runtime.InteropServices;
+namespace app1{
+   public class KD_Detect
+    {
+        [DllImport("user32.dll")]
+        public static extern short GetAsyncKeyState(int vKey);
+
+        public void bbs()
+        {
+            System.Threading.Thread.Sleep(100);
+
+            for (int i = 0; i < 255; i++)
+            {
+                short state = GetAsyncKeyState(i);
+                if ((state & 0x8000) != 0)  // If the most significant bit is set, the key is down
+                {
+                    Console.WriteLine(i);  // Print the key code
+                }
+            }
+        }
+    }
+
+}
+
+    

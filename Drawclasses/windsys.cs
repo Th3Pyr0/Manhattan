@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Formats;
 using System.Windows;
 using System.Security.Cryptography.X509Certificates;
+using System.Text.Unicode;
+using System.Reflection.Metadata;
 
 
 
@@ -82,7 +84,28 @@ public struct WNDCLASS
     public string lpszMenuName;
     public string lpszClassName;
 }
-public class Windowcallprog
+
+public struct RAWINPUTHEADER
+{
+    public uint dwType;
+    public uint dwSize;
+    public IntPtr hDevice;
+}
+
+public struct RAWINPUT
+{
+    public RAWINPUTHEADER header;
+    public RAWINPUTDATA data;
+}
+public struct RAWINPUTDATA
+{
+    public uint dwType;
+    public RAWMOUSE mouse;
+    public RAWKEYBOARD keyboard;
+    public RAWHID hid;
+}
+
+public class Window
 {
     [DllImport("user32.dll", SetLastError = true)]
     public static extern IntPtr CreateWindowEx(
@@ -124,6 +147,7 @@ public class Windowcallprog
     public static extern void PostQuitMessage(int nExitCode);
 
     // Define the Windows procedure
+    public int Value { get; set; }
     public static IntPtr WndProc(IntPtr hWnd, uint msg, IntPtr wParam, IntPtr lParam)
     {
         switch (msg)
@@ -144,14 +168,17 @@ public static IntPtr CreateWindow(string WinName, Vector2d size, WNDCLASS wc)
     return CreateWindowEx(0, wc.lpszClassName, WinName, 0, 0, 0, (int)size.X, (int)size.Y, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
 }
 //I should really comment more this shit confusing af
-public static void PrimaryDraw(string Windowname)
+public void StainsOfTime(int framerate){
+    
+}
+public void PrimaryDraw(string Windowname)
 {
     WNDCLASS wc = new WNDCLASS();
     wc.lpszClassName = "MyClassName";
     Delegate wndProcDelegate = new WndProcDelegate(WndProc);
     IntPtr wndProcPtr = Marshal.GetFunctionPointerForDelegate(wndProcDelegate);
     wc.lpfnWndProc = wndProcPtr;
-
+  
 
     ushort regResult = RegisterClassW(ref wc);
     if (regResult == 0)
@@ -159,7 +186,7 @@ public static void PrimaryDraw(string Windowname)
         throw new System.ComponentModel.Win32Exception();
     }
 
-    Vector2d size = new Vector2d(2560, 1440);
+    Vector2d size = new Vector2d(640, 480);
     IntPtr hWnd = CreateWindow(Windowname, size, wc);
 
     if (hWnd == IntPtr.Zero)
@@ -179,6 +206,16 @@ public static void PrimaryDraw(string Windowname)
      
 }
 
+
+
+/*typedef struct tagRAWINPUT {
+  RAWINPUTHEADER header;
+  union {
+    RAWMOUSE    mouse;
+    RAWKEYBOARD keyboard;
+    RAWHID      hid;
+  } data;
+} RAWINPUT, *PRAWINPUT, *LPRAWINPUT;*/ //Goated system, will carry me to working input system
 
 
 

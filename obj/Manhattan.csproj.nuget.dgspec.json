@@ -50,10 +50,6 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "System.Windows.Forms": {
-              "target": "Package",
-              "version": "[4.0.0, )"
             }
           },
           "imports": [

@@ -19,8 +19,8 @@ c:\Users\doozi\Manhattan\obj\Debug\net9.0\refint\Manhattan.dll
 c:\Users\doozi\Manhattan\obj\Debug\net9.0\Manhattan.pdb
 c:\Users\doozi\Manhattan\obj\Debug\net9.0\Manhattan.genruntimeconfig.cache
 c:\Users\doozi\Manhattan\obj\Debug\net9.0\ref\Manhattan.dll
-c:\Users\doozi\Manhattan\bin\Debug\net9.0\System.Windows.Forms.dll
 c:\Users\doozi\Manhattan\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
 c:\Users\doozi\Manhattan\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
 c:\Users\doozi\Manhattan\bin\Debug\net9.0\Silk.NET.Core.dll
 c:\Users\doozi\Manhattan\bin\Debug\net9.0\Silk.NET.OpenAL.dll
+c:\Users\doozi\Manhattan\obj\Debug\net9.0\Manhattan.sourcelink.json

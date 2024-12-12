@@ -217,15 +217,6 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
-      },
-      "System.Windows.Forms/4.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/System.Windows.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/System.Windows.Forms.dll": {}
-        }
       }
     }
   },
@@ -694,25 +685,12 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "System.Windows.Forms/4.0.0": {
-      "sha512": "WL3QPG1q88aIWO0JPOlkCeyNE+FK4ufSKY5j6J6qAFQyfCFiiOYxi8RAhev9H0CS/wmKbIK8qr8xZBod85oWKw==",
-      "type": "package",
-      "path": "system.windows.forms/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/System.Windows.Forms.dll",
-        "system.windows.forms.4.0.0.nupkg.sha512",
-        "system.windows.forms.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Silk.NET.OpenAL >= 2.20.0",
-      "System.Drawing.Common >= 6.0.0",
-      "System.Windows.Forms >= 4.0.0"
+      "System.Drawing.Common >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -721,11 +699,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
+      "projectUniqueName": "c:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
       "projectName": "Manhattan",
-      "projectPath": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
+      "projectPath": "c:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
       "packagesPath": "C:\\Users\\doozi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\doozi\\Manhattan\\obj\\",
+      "outputPath": "c:\\Users\\doozi\\Manhattan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\doozi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -764,10 +742,6 @@
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[6.0.0, )"
-          },
-          "System.Windows.Forms": {
-            "target": "Package",
-            "version": "[4.0.0, )"
           }
         },
         "imports": [
@@ -789,17 +763,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Windows.Forms",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
