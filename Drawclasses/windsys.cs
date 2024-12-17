@@ -85,26 +85,6 @@ public struct WNDCLASS
     public string lpszClassName;
 }
 
-public struct RAWINPUTHEADER
-{
-    public uint dwType;
-    public uint dwSize;
-    public IntPtr hDevice;
-}
-
-public struct RAWINPUT
-{
-    public RAWINPUTHEADER header;
-    public RAWINPUTDATA data;
-}
-public struct RAWINPUTDATA
-{
-    public uint dwType;
-    public RAWMOUSE mouse;
-    public RAWKEYBOARD keyboard;
-    public RAWHID hid;
-}
-
 public class Window
 {
     [DllImport("user32.dll", SetLastError = true)]

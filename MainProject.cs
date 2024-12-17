@@ -42,15 +42,10 @@ namespace app1 {
         }
         static void Main(string[] args){
             
-            
-            
           //  kd.bbs();
             Hell.PrimaryDraw("1984");
-
-            
 
         }
 
     }
 }
-
