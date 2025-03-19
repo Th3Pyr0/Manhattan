@@ -2,12 +2,19 @@
 
     <PropertyGroup>
       <OutputType>Exe</OutputType>
+<<<<<<< HEAD
       <TargetFramework>net9.0</TargetFramework>
+=======
+         <TargetFramework>net8.0</TargetFramework>
+>>>>>>> refs/remotes/origin/main
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+<<<<<<< HEAD
       <PackageReference Include="System.Windows.Forms" Version="4.0.0" />
+=======
+>>>>>>> refs/remotes/origin/main
       <PackageReference Include="Silk.NET.OpenAL" Version="2.20.0" />
       
     </ItemGroup>

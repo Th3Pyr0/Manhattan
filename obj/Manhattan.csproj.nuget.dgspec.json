@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj": {}
   },
   "projects": {
@@ -18,13 +19,37 @@
         ],
         "originalTargetFrameworks": [
           "net9.0"
+=======
+    "c:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj",
+        "projectName": "Manhattan",
+        "projectPath": "c:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj",
+        "packagesPath": "C:\\Users\\Zev Danielli\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Zev Danielli\\Manhattan-main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zev Danielli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+>>>>>>> refs/remotes/origin/main
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "net9.0": {
             "targetAlias": "net9.0",
+=======
+          "net8.0": {
+            "targetAlias": "net8.0",
+>>>>>>> refs/remotes/origin/main
             "projectReferences": {}
           }
         },
@@ -40,8 +65,13 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "net9.0": {
           "targetAlias": "net9.0",
+=======
+        "net8.0": {
+          "targetAlias": "net8.0",
+>>>>>>> refs/remotes/origin/main
           "dependencies": {
             "Silk.NET.OpenAL": {
               "target": "Package",
@@ -50,10 +80,13 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[6.0.0, )"
+<<<<<<< HEAD
             },
             "System.Windows.Forms": {
               "target": "Package",
               "version": "[4.0.0, )"
+=======
+>>>>>>> refs/remotes/origin/main
             }
           },
           "imports": [
@@ -72,7 +105,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+>>>>>>> refs/remotes/origin/main
         }
       }
     }

@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+fsr44eQzvUJ9MoJS/X8BjeOgnAJsjVhnwaMwrE1twuFD2exTqm/TbYPc3WaA23WkShNBBhGP4rJ02F5/rSFIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
@@ -31,4 +32,25 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "I6qxlu8FsuFUoySNBtkeLqkbtKLQvjDlYmayi20f9SNvEph8EGfA6v2aVSwncpeOTFMB7MfbFcVB+mD/yva0pw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\silk.net.core\\2.20.0\\silk.net.core.2.20.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\silk.net.openal\\2.20.0\\silk.net.openal.2.20.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+>>>>>>> refs/remotes/origin/main
 }

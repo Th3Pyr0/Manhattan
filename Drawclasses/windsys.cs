@@ -4,6 +4,11 @@ using System.Drawing;
 using System.Formats;
 using System.Windows;
 using System.Security.Cryptography.X509Certificates;
+<<<<<<< HEAD
+=======
+using System.Text.Unicode;
+using System.Reflection.Metadata;
+>>>>>>> refs/remotes/origin/main
 
 
 
@@ -82,7 +87,13 @@ public struct WNDCLASS
     public string lpszMenuName;
     public string lpszClassName;
 }
+<<<<<<< HEAD
 public class Windowcallprog
+=======
+
+
+public class Window
+>>>>>>> refs/remotes/origin/main
 {
     [DllImport("user32.dll", SetLastError = true)]
     public static extern IntPtr CreateWindowEx(
@@ -124,6 +135,10 @@ public class Windowcallprog
     public static extern void PostQuitMessage(int nExitCode);
 
     // Define the Windows procedure
+<<<<<<< HEAD
+=======
+    public int Value { get; set; }
+>>>>>>> refs/remotes/origin/main
     public static IntPtr WndProc(IntPtr hWnd, uint msg, IntPtr wParam, IntPtr lParam)
     {
         switch (msg)
@@ -143,15 +158,30 @@ public static IntPtr CreateWindow(string WinName, Vector2d size, WNDCLASS wc)
 {
     return CreateWindowEx(0, wc.lpszClassName, WinName, 0, 0, 0, (int)size.X, (int)size.Y, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
 }
+<<<<<<< HEAD
 //I should really comment more this shit confusing af
 public static void PrimaryDraw(string Windowname)
+=======
+
+
+//I should really comment more this shit confusing af
+public void StainsOfTime(int framerate){
+    
+}
+
+public void PrimaryDraw(string Windowname)
+>>>>>>> refs/remotes/origin/main
 {
     WNDCLASS wc = new WNDCLASS();
     wc.lpszClassName = "MyClassName";
     Delegate wndProcDelegate = new WndProcDelegate(WndProc);
     IntPtr wndProcPtr = Marshal.GetFunctionPointerForDelegate(wndProcDelegate);
     wc.lpfnWndProc = wndProcPtr;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> refs/remotes/origin/main
 
     ushort regResult = RegisterClassW(ref wc);
     if (regResult == 0)
@@ -159,7 +189,11 @@ public static void PrimaryDraw(string Windowname)
         throw new System.ComponentModel.Win32Exception();
     }
 
+<<<<<<< HEAD
     Vector2d size = new Vector2d(2560, 1440);
+=======
+    Vector2d size = new Vector2d(640, 480);
+>>>>>>> refs/remotes/origin/main
     IntPtr hWnd = CreateWindow(Windowname, size, wc);
 
     if (hWnd == IntPtr.Zero)
@@ -181,8 +215,20 @@ public static void PrimaryDraw(string Windowname)
 
 
 
+<<<<<<< HEAD
+=======
+typedef struct tagRAWINPUT {
+  RAWINPUTHEADER header;
+  union {
+    RAWMOUSE    mouse;
+    RAWKEYBOARD keyboard;
+    RAWHID      hid;
+  } data;
+} RAWINPUT, *PRAWINPUT, *LPRAWINPUT;*/ //Goated system, will carry me to working input system
 
-    /*public static void Main()
+
+
+    public static void Main()
     {
         WNDCLASS wc = new WNDCLASS();
         wc.lpszClassName = "MyClassName";
@@ -213,5 +259,5 @@ wc.lpfnWndProc = wndProcPtr;
             TranslateMessage(ref msg);
             DispatchMessage(ref msg);
         }
-    }*/
-}
+    }
+

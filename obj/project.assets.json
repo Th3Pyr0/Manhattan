@@ -1,7 +1,11 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     "net9.0": {
+=======
+    "net8.0": {
+>>>>>>> refs/remotes/origin/main
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -217,6 +221,7 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+<<<<<<< HEAD
       },
       "System.Windows.Forms/4.0.0": {
         "type": "package",
@@ -226,6 +231,8 @@
         "runtime": {
           "lib/System.Windows.Forms.dll": {}
         }
+=======
+>>>>>>> refs/remotes/origin/main
       }
     }
   },
@@ -694,6 +701,7 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+<<<<<<< HEAD
     },
     "System.Windows.Forms/4.0.0": {
       "sha512": "WL3QPG1q88aIWO0JPOlkCeyNE+FK4ufSKY5j6J6qAFQyfCFiiOYxi8RAhev9H0CS/wmKbIK8qr8xZBod85oWKw==",
@@ -717,10 +725,23 @@
   },
   "packageFolders": {
     "C:\\Users\\doozi\\.nuget\\packages\\": {}
+=======
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Silk.NET.OpenAL >= 2.20.0",
+      "System.Drawing.Common >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Zev Danielli\\.nuget\\packages\\": {}
+>>>>>>> refs/remotes/origin/main
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
       "projectName": "Manhattan",
       "projectPath": "C:\\Users\\doozi\\Manhattan\\Manhattan.csproj",
@@ -732,13 +753,31 @@
       ],
       "originalTargetFrameworks": [
         "net9.0"
+=======
+      "projectUniqueName": "C:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj",
+      "projectName": "Manhattan",
+      "projectPath": "C:\\Users\\Zev Danielli\\Manhattan-main\\Manhattan.csproj",
+      "packagesPath": "C:\\Users\\Zev Danielli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zev Danielli\\Manhattan-main\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Zev Danielli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+>>>>>>> refs/remotes/origin/main
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
+<<<<<<< HEAD
         "net9.0": {
           "targetAlias": "net9.0",
+=======
+        "net8.0": {
+          "targetAlias": "net8.0",
+>>>>>>> refs/remotes/origin/main
           "projectReferences": {}
         }
       },
@@ -754,8 +793,13 @@
       }
     },
     "frameworks": {
+<<<<<<< HEAD
       "net9.0": {
         "targetAlias": "net9.0",
+=======
+      "net8.0": {
+        "targetAlias": "net8.0",
+>>>>>>> refs/remotes/origin/main
         "dependencies": {
           "Silk.NET.OpenAL": {
             "target": "Package",
@@ -764,10 +808,13 @@
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[6.0.0, )"
+<<<<<<< HEAD
           },
           "System.Windows.Forms": {
             "target": "Package",
             "version": "[4.0.0, )"
+=======
+>>>>>>> refs/remotes/origin/main
           }
         },
         "imports": [
@@ -786,6 +833,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
       }
     }
@@ -802,4 +850,10 @@
       ]
     }
   ]
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+>>>>>>> refs/remotes/origin/main
 }

@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Manhattan
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\doozi\Manhattan\
+=======
+build_property.ProjectDir = C:\Users\Zev Danielli\Manhattan-main\
+>>>>>>> refs/remotes/origin/main
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
